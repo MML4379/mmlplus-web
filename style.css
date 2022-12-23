@@ -1,0 +1,33 @@
+@import url("assets/Inter-ExtraLight.ttf");
+body {
+    background-color: #262626;
+    color: #f3f3f3;
+    font-family: 'Inter ExtraLight';
+    padding: 12px;
+}
+
+.topnav {
+    background-color: #f3f3f3;
+    overflow: hidden;
+    border: 2px solid #dd0404;
+    border-radius: 30px;
+    padding: 4px 8px;
+  }
+
+  .topnav a {
+    float: left;
+    color: #262626;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #262626;
+    color: #f3f3f3;
+  }
+
+  .topnav a.active {
+    border-bottom: 2px solid blue;
+  }
